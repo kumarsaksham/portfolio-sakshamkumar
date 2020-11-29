@@ -34,7 +34,7 @@
     </li>
 </ul>
 
-## Tech used to build portfolio :
+## Tech Stack used to build portfolio :
 <ul>
     <li>HTML</li>
     <li>CSS</li>
