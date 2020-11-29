@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root{
+    --primary-color: #0C4A6E;
+    /* #8783C9; */
+    /* #9b2948; */
+    /* #8783C9; */
+    /* #0891B2; */
+    --secondary-color: white;
+    --dark-gray: #4B5563;
+    --dark-yellow: #D97706;
+    /* --dark-yellow: #F59E0B; */
+    --off-white: #F3F4F6; 
+    /* #E4E4E7; */
+    /* #D4D4D8; */
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+hr{
+    margin: 2rem 0;
+}
+
+/* spacing */
+.padding-bottom-md{
+    padding-bottom: 1rem;
+}
+
+/* container */
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
+
+/* link */
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    /* TODO: margin-top: 1rem; */
+}
+/* links like button */
+.link-primary{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 0.5rem;
+}
+
+.link-secondary{
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 0.5rem;
+    font-weight: bold;
+}
+
+/* lists */
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/* navigation */
+.navigation{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 1rem 0.5rem;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.navigation .nav-brand{
+    font-weight: bold;
+    font-size: large;
+}
+/* link class inside navigation class */
+.navigation .link{
+    color: var(--secondary-color);
+}
+
+.navigation .nav-pills{
+    text-align: right;
+}
+
+.navigation .link-active{
+    font-weight: bold;
+}
+
+/* header */
+.hero{
+    padding: 2rem 0rem;
+}
+
+.hero .hero-image{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading{
+    text-align: center;
+    color: var(--dark-yellow);
+}
+
+.hero .hero-heading .header-inverted{
+    color: var(--primary-color);
+}
+
+/* section */
+
+.section{
+    padding: 2rem;
+}
+.section h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.ow{
+    background-color:var(--off-white) ;
+}
+
+/* footer */
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 0rem;
+    text-align: center;
+    color: var(--secondary-color);
+    border-bottom-right-radius: 1rem;
+    /* border-top-left-radius: 1rem; */
+}
+
+.footer .footer-heading{
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer .link{
+    color: var(--secondary-color);
+    margin: auto;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
