@@ -16,7 +16,6 @@
 <ul>
     <li>
         <h2>Game of Thrones fan?</h1>
-        <hr>
         <small>November 2020</small>
         <p>A CLI app built with <strong>node.JS</strong>.</p>
         <p>Let's see if you know the characters.</p>
@@ -27,7 +26,6 @@
 <ul>
     <li>
         <h2>How well do you know me?</h1>
-        <hr>
         <small>November 2020</small>
         <p>A CLI app built with <strong>node.JS</strong>.</p>
         <p>Let's see if you know me well.</p>
